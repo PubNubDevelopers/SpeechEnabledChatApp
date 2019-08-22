@@ -1,5 +1,5 @@
-const pollyAudioPubNubFunction = 'https://pubsub.pubnub.com/v1/blocks/sub-key/sub-c-87902f3c-c517-11e9-9cc7-622122667ebb/aws-polly';
-const chatChannel = 'my_chat_polly_bsdgyehdb';
+const pollyAudioPubNubFunction = 'YOUR_PUBNUB_FUNCTIONS_ENDPOINT_URL_HERE';
+const chatChannel = 'pubnub_chat_polly';
 const chatHistoryUl = $('#chat-history-ul');
 
 function parseTime(time) {
@@ -48,8 +48,8 @@ var generatePerson = function(online) {
 let newPerson = generatePerson(true);
 
 let pubnub = new PubNub({
-    publishKey: 'pub-c-aaff0a04-c90d-429a-b39d-48f37ac03453',
-    subscribeKey: 'sub-c-87902f3c-c517-11e9-9cc7-622122667ebb',
+    publishKey: 'YOUR_FREE_PUBNUB_PUBLISH_KEY_HERE',
+    subscribeKey: 'YOUR_FREE_PUBNUB_SUBSCRIBE_KEY_HERE',
     uuid: newPerson.uuid
 });
 
