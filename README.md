@@ -34,7 +34,7 @@ Download the credentials file for the IAM user and save it. This file contains t
 
 <img src="screenshots/step2-awsIAM.png" width="600">
 
-## [Set Up Serverless PubNub Functions REST API](#asd)
+## [Set Up Serverless PubNub Functions REST API](#user-content-set-up-serverless-pubnub-functions-rest-api)
 
 The PubNub Function streams the binary audio payload for synthesized speech. Import an [AWS Polly PubNub Function](https://www.pubnub.com/docs/blocks-catalog/amazon-polly?devrel_gh=shyam) copy in your account.
 
@@ -52,8 +52,7 @@ For activating the speech prompt, click on the top right icon. It will turn gree
 
 [![PubNub Chat with TTS AWS Polly](https://img.youtube.com/vi/Ulm0E4vVRtc/0.jpg)](https://www.youtube.com/watch?v=Ulm0E4vVRtc)
 
-[Video Demo]
-https://youtu.be/Ulm0E4vVRtc
+[Video Demo](https://youtu.be/Ulm0E4vVRtc)
 
 ## Caution
 
