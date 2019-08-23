@@ -2,6 +2,8 @@
 
 This repo contains the source code for a sample application that demonstrates how to build accessible apps for chat clients, built with PubNub, jQuery, and Amazon Polly.
 
+<img src="screenshots/pubnub-chat-demo.gif" width="600">
+
 The source code for this chat app is in JavaScript. The UI frontend uses the standard JavaScript libraries like jQuery, so some level of familiarity with jQuery and standard JavaScript language is expected.
 
 For reference, here is the complete documentation of [PubNub](https://www.pubnub.com/). The Amazon Polly documentation can be accessed in this [link](https://aws.amazon.com/polly/).
